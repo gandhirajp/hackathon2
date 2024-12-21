@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
   Box,
   Grid,
@@ -13,6 +13,7 @@ import { Home } from "@mui/icons-material";
 import Navbar from "./Navbar";
 import { ALL_CATEGORIES } from "./constant";
 import { Link } from "react-router-dom";
+import Popup from './Popup'
 
 const cards = [
   {
@@ -59,10 +60,23 @@ const cards = [
   },
 ];
 
+
 const HomePage = () => {
+  const [open, setOpen] = React.useState(false);
+  
+useEffect(() => {
+  new Promise((resolve) => {
+    setTimeout(() => {
+      setOpen(true);
+      resolve();
+    }, 5000);
+  })
+}, []);
+  
   return (
     <div>
       <Navbar />
+      {open && <Popup title='Need help?' content='Finding it hard choosing your career? Let us help you!' isNextVisible />}
       <Box sx={{ padding: 4 }}>
         <Grid
           container
@@ -83,7 +97,6 @@ const HomePage = () => {
                       height="180"
                       image={card.image}
                       alt={card.title}
-                      height="250"
                     />
                     <CardContent sx={{ textAlign: "center" }}>
                       <Typography variant="h6" component="div" gutterBottom>

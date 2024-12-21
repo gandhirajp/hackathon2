@@ -8,8 +8,7 @@ import {
   Grid,
   Typography,
 } from "@mui/material";
-import { ENGINEERING, INFORMATION_TECHNOLOGY } from "./constant";
-import { Link } from "react-router-dom";
+import { ENGINEERING } from "./constant";
 
 const Engineering = () => {
   return (
