@@ -31,9 +31,9 @@ const PopupHeader = styled.h2`
 `;
 
 const PopupText = styled.p`
-  font-size: 16px;
+  font-size: 20px;
   color: #555;
-  margin: 20px 0;
+  margin: 30px 0;
 `;
 
 const NextButton = styled.button`
