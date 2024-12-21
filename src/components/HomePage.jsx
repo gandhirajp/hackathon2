@@ -61,7 +61,7 @@ const cards = [
 
 const HomePage = () => {
   return (
-    <div>
+    <div sx={{ position: "sticky", top: 0 }}>
       <Navbar />
       <Box sx={{ padding: 4 }}>
         <Grid
@@ -76,7 +76,14 @@ const HomePage = () => {
           <Grid container md={10} spacing={4}>
             {ALL_CATEGORIES.map((card) => (
               <Grid item xs={12} sm={6} md={4} key={card.id}>
-                <Link to={`${card.path}`}>
+                <Link
+                  to={`${card.path}`}
+                  style={{
+                    textDecoration: "none",
+                    backgroundColor: "transparent",
+                    fontSize: "30px",
+                  }}
+                >
                   <Card sx={{ borderRadius: 2, boxShadow: 3, height: "400px" }}>
                     <CardMedia
                       component="img"
@@ -85,7 +92,7 @@ const HomePage = () => {
                       alt={card.title}
                       height="250"
                     />
-                    <CardContent sx={{ textAlign: "center" }}>
+                    <CardContent sx={{ textAlign: "center", color: "black" }}>
                       <Typography variant="h6" component="div" gutterBottom>
                         {card.title}
                       </Typography>

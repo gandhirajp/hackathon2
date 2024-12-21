@@ -8,10 +8,9 @@ import {
   Grid,
   Typography,
 } from "@mui/material";
-import { INFORMATION_TECHNOLOGY } from "./constant";
-import { Link } from "react-router-dom";
+import { RESEARCH_AND_DEVELOPMENT } from "./constant";
 
-const InformationIT = () => {
+const ResearchDevelopment = () => {
   return (
     <div>
       <Navbar />
@@ -32,10 +31,10 @@ const InformationIT = () => {
               paddingBottom: "20px",
             }}
           >
-            Information Technology
+            Research And Development
           </h1>
           <Grid container md={10} spacing={4}>
-            {INFORMATION_TECHNOLOGY.map((card) => (
+            {RESEARCH_AND_DEVELOPMENT.map((card) => (
               <Grid item xs={12} sm={6} md={4} key={card.id}>
                 {/* <Link to="/information-it"> */}
                 <Card sx={{ borderRadius: 2, boxShadow: 3, height: "400px" }}>
@@ -62,4 +61,4 @@ const InformationIT = () => {
   );
 };
 
-export default InformationIT;
+export default ResearchDevelopment;

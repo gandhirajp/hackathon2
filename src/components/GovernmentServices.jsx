@@ -8,10 +8,9 @@ import {
   Grid,
   Typography,
 } from "@mui/material";
-import { INFORMATION_TECHNOLOGY } from "./constant";
-import { Link } from "react-router-dom";
+import { GOVERMENT_SERVICES } from "./constant";
 
-const InformationIT = () => {
+const GovernmentServices = () => {
   return (
     <div>
       <Navbar />
@@ -25,17 +24,17 @@ const InformationIT = () => {
             alignItems: "center",
           }}
         >
-          <h1
+          <div
             style={{
               fontSize: "40px",
               fontWeight: "bold",
               paddingBottom: "20px",
             }}
           >
-            Information Technology
-          </h1>
+            Government Services
+          </div>
           <Grid container md={10} spacing={4}>
-            {INFORMATION_TECHNOLOGY.map((card) => (
+            {GOVERMENT_SERVICES.map((card) => (
               <Grid item xs={12} sm={6} md={4} key={card.id}>
                 {/* <Link to="/information-it"> */}
                 <Card sx={{ borderRadius: 2, boxShadow: 3, height: "400px" }}>
@@ -62,4 +61,4 @@ const InformationIT = () => {
   );
 };
 
-export default InformationIT;
+export default GovernmentServices;

@@ -18,15 +18,15 @@ export default function Navbar() {
   };
 
   return (
-    <Box>
+    <Box sx={{ display: "fixed" }}>
       <Grid
         container
         md={12}
         sx={{
           display: "flex",
           justifyContent: "center",
-          margin: "30px 0",
-          // alignItems: "center",
+          // margin: "30px 0px 40px 0px",
+          // backgroundColor: "red",
         }}
       >
         <Grid container const md={10}>
@@ -39,28 +39,59 @@ export default function Navbar() {
               }}
             >
               <Typography variant="h6" sx={{ fontWeight: "bold" }}>
-                <Link to="/">Jihoo Kim</Link>
+                <Link
+                  to="/"
+                  style={{
+                    textDecoration: "none",
+                    fontSize: "30px",
+                    color: "black",
+                    fontWeight: "bold",
+                    testShadow: "2px 2px",
+                  }}
+                >
+                  CareerQ
+                </Link>
               </Typography>
               <Box sx={{ display: "flex", gap: 3 }}>
                 <Button
                   color="inherit"
                   sx={{ fontWeight: darkMode ? "bold" : "normal" }}
                 >
-                  <Link to="/"> All Careers</Link>
+                  <Link
+                    to="/"
+                    style={{
+                      textDecoration: "none",
+                      fontSize: "15px",
+                      color: "black",
+                      fontWeight: "bold",
+                    }}
+                  >
+                    All Careers
+                  </Link>
                 </Button>
-                <Button color="inherit" sx={{ fontWeight: "normal" }}>
-                  About
-                </Button>
-                <Button color="inherit" sx={{ fontWeight: "normal" }}>
+                <Button
+                  color="inherit"
+                  style={{
+                    textDecoration: "none",
+                    ontSize: "15px",
+                    color: "black",
+                    fontWeight: "bold",
+                  }}
+                >
                   Contact
                 </Button>
-                <Button color="inherit" sx={{ fontWeight: "normal" }}>
-                  Projects
+                <Button
+                  color="inherit"
+                  style={{
+                    textDecoration: "none",
+                    ontSize: "15px",
+                    color: "black",
+                    fontWeight: "bold",
+                  }}
+                >
+                  Profile
                 </Button>
               </Box>
-              {/* <IconButton onClick={toggleDarkMode}>
-          {darkMode ? <LightModeIcon /> : <DarkModeIcon />}
-        </IconButton> */}
             </Toolbar>
           </AppBar>
         </Grid>

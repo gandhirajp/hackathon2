@@ -8,13 +8,24 @@ import {
   Grid,
   Typography,
 } from "@mui/material";
-import { INFORMATION_TECHNOLOGY } from "./constant";
-import { Link } from "react-router-dom";
+import { ARTS, TECHNICAL_AND_SKILL_TRADES } from "./constant";
 
-const InformationIT = () => {
+const Arts = () => {
   return (
     <div>
       <Navbar />
+      <h1
+        style={{
+          fontSize: "40px",
+          fontWeight: "bold",
+          paddingBottom: "20px",
+          display: "flex",
+          justifyContent: "center",
+          alignContent: "center",
+        }}
+      >
+        Arts
+      </h1>
       <Box sx={{ padding: 4 }}>
         <Grid
           container
@@ -25,17 +36,8 @@ const InformationIT = () => {
             alignItems: "center",
           }}
         >
-          <h1
-            style={{
-              fontSize: "40px",
-              fontWeight: "bold",
-              paddingBottom: "20px",
-            }}
-          >
-            Information Technology
-          </h1>
           <Grid container md={10} spacing={4}>
-            {INFORMATION_TECHNOLOGY.map((card) => (
+            {ARTS.map((card) => (
               <Grid item xs={12} sm={6} md={4} key={card.id}>
                 {/* <Link to="/information-it"> */}
                 <Card sx={{ borderRadius: 2, boxShadow: 3, height: "400px" }}>
@@ -62,4 +64,4 @@ const InformationIT = () => {
   );
 };
 
-export default InformationIT;
+export default Arts;
