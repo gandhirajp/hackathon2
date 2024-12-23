@@ -38,7 +38,7 @@ const InformationIT = () => {
             {INFORMATION_TECHNOLOGY.map((card) => (
               <Grid item xs={12} sm={6} md={4} key={card.id}>
                 {/* <Link to="/information-it"> */}
-                <Card sx={{ borderRadius: 2, boxShadow: 3, height: "400px" }}>
+                <Card sx={{ borderRadius: 2, boxShadow: 3, height: "320px" }}>
                   <CardMedia
                     component="img"
                     height="180"

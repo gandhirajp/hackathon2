@@ -2807,6 +2807,8 @@ const ALL_CATEGORIES = [
     id: 1,
     title: "Information Technology",
     path: "/information-technology",
+    content:
+      "Managing, processing, storing, and sharing digital data efficiently",
     image:
       "https://plus.unsplash.com/premium_photo-1661877737564-3dfd7282efcb?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
@@ -2814,6 +2816,8 @@ const ALL_CATEGORIES = [
     id: 2,
     title: "Engineering",
     path: "/engineering",
+    content:
+      "Designing, building, and innovating solutions using science and technology.",
     image:
       "https://images.unsplash.com/photo-1581092160562-40aa08e78837?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
@@ -2821,6 +2825,8 @@ const ALL_CATEGORIES = [
     id: 3,
     title: "Government Services",
     path: "/government-services",
+    content:
+      "Managing public programs, resources, and administrative support for citizens.",
     image:
       "https://media.gettyimages.com/id/85772713/photo/central-secretariat-on-raisina-hill.jpg?s=1024x1024&w=gi&k=20&c=jjXPdlrRLOcieCnHNKIuSvUDB_FjJwB-vIZTeZDAsEA=",
   },
@@ -2828,12 +2834,16 @@ const ALL_CATEGORIES = [
     id: 4,
     title: "Management",
     path: "/management",
+    content:
+      "Organizing, planning, and directing resources to achieve specific goals.",
     image:
       "https://plus.unsplash.com/premium_photo-1661414415246-3e502e2fb241?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     id: 5,
     title: "Operations Logistics And Hospitality",
+    content:
+      "Coordinating supply chains, customer service, and event management efficiently.",
     path: "/operations-logistics-hospitality",
     image:
       "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -2842,6 +2852,8 @@ const ALL_CATEGORIES = [
     id: 6,
     title: "Public Policy Law And Safety",
     path: "/public-policy-law-safety",
+    content:
+      "Creating regulations, enforcing laws, and ensuring public security.",
     image:
       "https://images.unsplash.com/photo-1479142506502-19b3a3b7ff33?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
@@ -2849,6 +2861,8 @@ const ALL_CATEGORIES = [
     id: 7,
     title: "Research And Development",
     path: "/research-development",
+    content:
+      "Innovating through systematic investigation and creating new products, technologies.",
     image:
       "https://plus.unsplash.com/premium_photo-1661436558976-540ff4f4459f?q=80&w=2972&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
@@ -2856,6 +2870,8 @@ const ALL_CATEGORIES = [
     id: 8,
     title: "Technical And Skill Trades",
     path: "/technical-skill-trades",
+    content:
+      "Practical careers requiring specialized training and hands-on expertise.",
     image:
       "https://images.unsplash.com/photo-1607631755187-298a3f9a640a?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTAyfHxUZWNobmljYWwlMjBBbmQlMjBTa2lsbCUyMFRyYWRlc3xlbnwwfHwwfHx8MA%3D%3D",
   },
@@ -2863,6 +2879,8 @@ const ALL_CATEGORIES = [
     id: 9,
     title: "Agriculture",
     path: "/agriculture",
+    content:
+      "Cultivating crops, livestock, and resources to sustain human life.",
     image:
       "https://plus.unsplash.com/premium_photo-1661962692059-55d5a4319814?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
@@ -2870,6 +2888,8 @@ const ALL_CATEGORIES = [
     id: 10,
     title: "Arts",
     path: "/arts",
+    content:
+      "Creative expression through visual, performing, and literary mediums.",
     image:
       "https://images.unsplash.com/photo-1661697522368-f09157f69b6c?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
@@ -2877,6 +2897,8 @@ const ALL_CATEGORIES = [
     id: 11,
     title: "Media",
     path: "/media",
+    content:
+      "Communicating information, news, and entertainment through various platforms.",
     image:
       "https://plus.unsplash.com/premium_photo-1688700439239-8120f554eb2e?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
@@ -2884,6 +2906,8 @@ const ALL_CATEGORIES = [
     id: 12,
     title: "Marketing",
     path: "/marketing",
+    content:
+      "Promoting products or services to engage customers and drive sales.",
     image:
       "https://plus.unsplash.com/premium_photo-1661486923449-5a8ab6b5f07c?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
@@ -2891,6 +2915,8 @@ const ALL_CATEGORIES = [
     id: 12,
     title: "Business and Finance",
     path: "/business-finance",
+    content:
+      "Managing companies, resources, investments, and financial operations for growth.",
     image:
       "https://images.unsplash.com/photo-1431540015161-0bf868a2d407?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
@@ -2898,6 +2924,8 @@ const ALL_CATEGORIES = [
     id: 12,
     title: "Helath and wellness",
     path: "/health-wellness",
+    content:
+      "Promoting physical, mental, and emotional well-being for individuals.",
     image:
       "https://images.unsplash.com/photo-1545205597-3d9d02c29597?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
@@ -2905,6 +2933,8 @@ const ALL_CATEGORIES = [
     id: 12,
     title: "Sports ",
     path: "/sports",
+    content:
+      "Physical activities, competitions, and games promoting fitness and entertainment.",
     image:
       "https://i.pinimg.com/736x/51/8a/7f/518a7f8ade6f2f37c5770147431237bd.jpg",
   },
@@ -2912,6 +2942,8 @@ const ALL_CATEGORIES = [
     id: 12,
     title: "Music ",
     path: "/music",
+    content:
+      "Creating, performing, and enjoying melodies, rhythms, and harmonies.",
     image:
       "https://images.unsplash.com/photo-1525362081669-2b476bb628c3?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
@@ -2970,7 +3002,63 @@ const TIME_LINE_DETAILS = [
   },
   {
     title: "Salary",
-    content: ["currency", "INR"],
+    content: ["Currency: INR", "Min: 5,00,000", "Max: 25,00,000"],
+  },
+];
+
+const AGNIVEER = [
+  {
+    title: "Basic qualification",
+    content: [
+      "Under the Agnipath scheme, people between the ages of 17 years and 23 years will be recruited into the military service of their choice for four years. After this tenure, 25% of the Agniveers will be retained and the remaining 75% will be permitted to return to civilian life. During this duration of 4 years, they would gain many skills which will help them to gain employment",
+    ],
+  },
+  {
+    title: "PERSONALITY TRAITS",
+    content: [
+      "You like helping people",
+      "You like working outdoors",
+      "You are keen to serve the country and demonstrate valour",
+      "You like to have clear instructions to follow",
+    ],
+  },
+  {
+    title: "Where you study",
+    content: [
+      "Agniveers are trained in Artillery Centre, Nashik and Hyderabad",
+      "The Indira Gandhi National Open University (IGNOU) is offering skill based Bachelor's Degree Programmes for Agniveers.",
+      "IGNOU University has signed Memorandums of Understanding (MoUs) with the Indian Air Force (IAF), Indian Navy, and Indian Army with regard to the skill-based undergraduate courses for Agniveers.",
+    ],
+  },
+  {
+    title: "Where will you work",
+    content: [
+      "Places of Work: You will be placed under the Indian Navy, Indian Army, Indian Air Force as a non-commissioned officer",
+      "6 to 7 days a week for 8 to 9 hours per day. Shift system is applicable. You are expected to deal with challenging situations. Most of the work is outdoors.",
+      "Opportunities for work exist for differently abled in this field",
+    ],
+  },
+  {
+    title: "Expected_growth_path",
+    content: [
+      "Private → Corporal → Sergeant →Sergeant Major",
+      "Seaman Leading Seaman Petty Officer Chief Petty Officer",
+      "Aircraftman Leading Aircraftman → Sergeant → Warrant Officer",
+    ],
+  },
+  {
+    title: "Work_opportunities",
+    content: [
+      "Software and Tech companies",
+      "Government and Private research facilities",
+      "Engineering institutes, among others",
+    ],
+  },
+  {
+    title: "Salary",
+    content: [
+      "The approx. salary of an Agniveer jawan ranges between INR 30,000-40,000 per month",
+    ],
   },
 ];
 
@@ -2987,4 +3075,5 @@ module.exports = {
   TECHNICAL_AND_SKILL_TRADES,
   ARTS,
   TIME_LINE_DETAILS,
+  AGNIVEER,
 };

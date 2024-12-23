@@ -1,0 +1,107 @@
+/* src/Questionnaire.css */
+.questionnaire-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  text-align: left;
+}
+
+.questionnaire-title {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.questionnaire {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.question {
+  margin-bottom: 40px;
+}
+
+.question-text {
+  font-size: 20px;
+  color: #34495e;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.choices {
+  margin-left: 20px;
+}
+
+.choice {
+  margin-bottom: 20px;
+}
+
+.choice input {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.choice-label {
+  font-size: 16px;
+  color: #2c3e50;
+  cursor: pointer;
+}
+
+.choice-label:hover {
+  color: #2980b9;
+}
+
+.submit-btn-container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.submit-btn {
+  background-color: #2980b9;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #1f6482;
+}
+
+.submit-btn:disabled {
+  background-color: #95a5a6;
+  cursor: not-allowed;
+}
+
+.submit-btn:focus {
+  outline: none;
+}
+
+@media (max-width: 1200px) {
+  .questionnaire-container {
+    padding: 10px;
+  }
+
+  .questionnaire-title {
+    font-size: 28px;
+  }
+
+  .question-text {
+    font-size: 18px;
+  }
+
+  .choice-label {
+    font-size: 14px;
+  }
+
+  .submit-btn {
+    font-size: 16px;
+  }
+}

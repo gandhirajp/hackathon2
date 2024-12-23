@@ -91,7 +91,7 @@ function HorizontalTimeline() {
       <Timeline sx={{ display: "flex", flexDirection: "row" }}>
         <TimelineItem>
           <TimelineDot color="primary" sx={{ marginTop: "30px" }}>
-            <FastfoodIcon sx={{ fontSize: "40px" }} />
+            <LaptopMacIcon sx={{ fontSize: "40px" }} />
           </TimelineDot>
           <TimelineConnector
             sx={{ rotate: "90deg", flexGrow: 0, marginLeft: "70px" }}
@@ -144,7 +144,7 @@ function HorizontalTimeline() {
                 "::before": { padding: "0px" },
               }}
             >
-              <HotelIcon sx={{ fontSize: "40px" }} />
+              <LaptopMacIcon sx={{ fontSize: "40px" }} />
             </TimelineDot>
           </TimelineSeparator>
           <TimelineConnector
@@ -168,7 +168,7 @@ function HorizontalTimeline() {
         <TimelineItem>
           <TimelineSeparator>
             <TimelineDot color="secondary" sx={{ marginTop: "30px" }}>
-              <RepeatIcon sx={{ fontSize: "40px" }} />
+              <LaptopMacIcon sx={{ fontSize: "40px" }} />
             </TimelineDot>
           </TimelineSeparator>
           <TimelineContent sx={{ textAlign: "center", minWidth: "120px" }}>
@@ -211,6 +211,7 @@ const TimelineDetails = () => {
                 height: "360px",
                 flexDirection: "column",
                 background: "#caf0f8",
+                padding: 4,
               }}
             >
               <Typography

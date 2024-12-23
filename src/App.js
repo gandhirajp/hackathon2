@@ -1,7 +1,7 @@
 import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import HomePage from "./components/HomePage"; // Import HomePage or any component you want to use
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import InformationIT from "./components/InformationIT";
 import Engineering from "./components/Engineering";
 import GovernmentServices from "./components/GovernmentServices";
@@ -12,6 +12,8 @@ import ResearchDevelopment from "./components/ResearchDevelopment";
 import TechnicalSkillTrades from "./components/TechnicalSkillTrades";
 import Arts from "./components/Arts";
 import CustomizedTimeline from "./components/TimeLine";
+import CareerPathQues from "./components/CareerPathQuestions";
+import AgniPath from "./components/AgniPath";
 
 function App() {
   return (
@@ -42,6 +44,8 @@ function App() {
         <Route path="/sports" element={<TechnicalSkillTrades />} />
         <Route path="/music" element={<TechnicalSkillTrades />} />
         <Route path="/ai-engineer" element={<CustomizedTimeline />} />
+        <Route path="/career-path-selector" element={<CareerPathQues />} />
+        <Route path="/agniveer" element={<AgniPath />} />
       </Routes>
     </BrowserRouter>
   );

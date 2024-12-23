@@ -25,7 +25,7 @@ export default function Navbar() {
         sx={{
           display: "flex",
           justifyContent: "center",
-          // margin: "30px 0px 40px 0px",
+          margin: "30px 0px 40px 0px",
           // backgroundColor: "red",
         }}
       >
@@ -46,10 +46,9 @@ export default function Navbar() {
                     fontSize: "30px",
                     color: "black",
                     fontWeight: "bold",
-                    testShadow: "2px 2px",
                   }}
                 >
-                  CareerQ
+                  CareerCue
                 </Link>
               </Typography>
               <Box sx={{ display: "flex", gap: 3 }}>
@@ -78,7 +77,17 @@ export default function Navbar() {
                     fontWeight: "bold",
                   }}
                 >
-                  Contact
+                  <Link
+                    to="/career-path-selector"
+                    style={{
+                      textDecoration: "none",
+                      fontSize: "15px",
+                      color: "black",
+                      fontWeight: "bold",
+                    }}
+                  >
+                    Find My Career
+                  </Link>
                 </Button>
                 <Button
                   color="inherit"

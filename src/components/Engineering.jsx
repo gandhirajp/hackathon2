@@ -48,16 +48,20 @@ const Engineering = () => {
                     fontSize: "30px",
                   }}
                 >
-                  <Card sx={{ borderRadius: 2, boxShadow: 3, height: "400px" }}>
+                  <Card sx={{ borderRadius: 2, boxShadow: 3, height: "320px" }}>
                     <CardMedia
                       component="img"
-                      height="180"
+                      height="250"
                       image={card.image}
                       alt={card.title}
-                      height="250"
                     />
-                    <CardContent>
-                      <Typography variant="h6" component="div" gutterBottom>
+                    <CardContent sx={{ textAlign: "center", color: "black" }}>
+                      <Typography
+                        variant="h6"
+                        component="div"
+                        gutterBottom
+                        sx={{ fontWeight: "bold" }}
+                      >
                         {card.title}
                       </Typography>
                     </CardContent>
